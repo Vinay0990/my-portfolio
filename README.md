@@ -1,2 +1,5 @@
-# my-portfolio
- My portfolio which details my journey into Software development
+# My-Portfolio
+
+## Technologies used
+
+ReactJs and Bootstrap with some my customizations
