@@ -1,15 +1,14 @@
-import logo from "./logo.svg";
-import "./App.css";
-import SideNav from "./Components/NavBar/SideNav";
+import "./assets/css/main.css";
 import { Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Education from "./Pages/Education/Education";
 import Experience from "./Pages/Experience/Experience";
+import NavBar from "./Components/NavBar/NavBar";
 
 function App() {
   return (
     <div className="App">
-      <SideNav />
+      <NavBar />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/education" component={Education} />
