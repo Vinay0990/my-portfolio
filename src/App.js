@@ -1,4 +1,3 @@
-import "./assets/css/main.css";
 import { Route, Switch } from "react-router-dom";
 import Home from "./Pages/Home/Home";
 import Education from "./Pages/Education/Education";
